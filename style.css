@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+
+#choices {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+button {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
